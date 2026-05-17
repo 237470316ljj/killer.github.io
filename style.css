@@ -1,0 +1,46 @@
+html{ /*全局字体设置，这个设定会继承给所有页面的子元素*/
+  font-size:10px;/*px表示像素pixel 基础字号为10像素*/
+  font-family:"Open Sans",sans-serif;
+  background-color: #00539f;/*背景颜色*/
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+  color: #00539f;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  /*第一个像素值设置阴影与文本的水平偏移量：阴影水平方向移动的距离（向右为正值）。
+  第二个像素值设置阴影与文本的垂直偏移量：阴影垂直方向移动的距离（向下为正值）。
+  第三个像素值设置阴影的模糊半径。值越大产生的阴影越模糊。 
+  第四个值设置阴影的基色
+  3px 3px 1px black 就是在文字的右下方 3 像素处，投射一个轻微模糊的黑色影子，让文字更有立体感。*/
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  /* 第一个值设置上下，第二个值设置左右，auto 是一个特殊的值，他可将水平空间平均分配给左右，也就是居中了*/
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;/*上 右 下 左 顺时钟*/
+  border: 5px solid black;
+}
+
+/* 图像居中*/
+img {
+  /*图片居中必须要display和margin配合才行*/
+  display:block;
+  margin: 0 auto;
+}
+
+button{
+  display:block;
+  margin: 0 auto;
+}
